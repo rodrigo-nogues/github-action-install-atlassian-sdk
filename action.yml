@@ -1,10 +1,5 @@
 name: 'Install Atlassian SDK'
 description: 'Download Atlassian SDK and install it'
-# inputs:
-#   who-to-greet:  # id of input
-#     description: 'Who to greet'
-# required: true
-#     default: 'World'
 runs:
   using: "composite"
   steps:   
@@ -16,6 +11,3 @@ runs:
         sudo apt-get install atlassian-plugin-sdk
       shell: bash
     - run: atlas-version
-#    - run: >
-#        Invoke-WebRequest https://marketplace.atlassian.com/download/plugins/atlassian-plugin-sdk-windows -OutFile sdk-installer.exe
-#      shell: pwsh
