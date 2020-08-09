@@ -9,10 +9,7 @@ runs:
         sudo apt-key add public
         sudo apt-get update
       shell: bash
-      name: "Add Atlassian repository"
     - run: sudo apt-get install atlassian-plugin-sdk
       shell: bash
-      name: "Install SDK"
     - run: atlas-version
       shell: bash
-      name: "Check installation"
