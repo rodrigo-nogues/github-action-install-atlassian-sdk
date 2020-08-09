@@ -1,5 +1,9 @@
 name: 'Install Atlassian SDK'
+author: @rodrigo-nogues
 description: 'Download Atlassian SDK and install it'
+branding:
+  icon: server
+  color: blue
 runs:
   using: "composite"
   steps:
