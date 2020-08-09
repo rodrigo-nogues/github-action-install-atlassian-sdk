@@ -8,8 +8,6 @@ runs:
         wget https://packages.atlassian.com/api/gpg/key/public
         sudo apt-key add public
         sudo apt-get update
-      shell: bash
-    - run: sudo apt-get install atlassian-plugin-sdk
-      shell: bash
-    - run: atlas-version
+        sudo apt-get install atlassian-plugin-sdk
+        atlas-version
       shell: bash
